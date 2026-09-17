@@ -34,12 +34,14 @@
                 Jyotirman
             </a>
 
-            <button
-                class="menu-toggle"
-                id="menu-toggle"
-                aria-label="Open navigation menu">
-                ☰
-            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
             <button
                 class="theme-toggle"
@@ -48,33 +50,13 @@
                 🌙
             </button>
 
-            <ul class="nav-links" id="nav-links">
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu">
+                ☰
+            </button>
 
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-
-                <li>
-                    <a href="#about">About</a>
-                </li>
-
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-
-                <li>
-                    <a href="#education">Education</a>
-                </li>
-
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-
-            </ul>
 
         </nav>
 
@@ -128,7 +110,7 @@
                     </a>
 
                     <a
-                        href="assets//Jyotirman Talukdar- cv.pdf"
+                        href="assets/Jyotirman Talukdar- cv.pdf"
                         class="btn secondary-btn"
                         target="_blank"
                         rel="noopener noreferrer">
@@ -331,7 +313,8 @@
                     </div>
 
                     <a
-                        href="#" class="project-link"></a>
+                        href="#"
+                        class="project-link">
 
                         View Project →
 
@@ -386,20 +369,88 @@
 
             <h2>Education</h2>
 
-            <div class="education-card">
+            <div class="education-grid">
 
-                <h3>
-                    Master of Computer Applications (MCA)
-                </h3>
+                <!-- MCA -->
+                <div class="education-card">
 
-                <p>
-                    Currently Pursuing
-                </p>
+                    <h3>
+                        Master of Computer Applications (MCA)
+                    </h3>
 
-                <p>
-                    Focus Areas: Artificial Intelligence, Machine Learning,
-                    IoT, Data Science and Software Development
-                </p>
+                    <p class="education-institution">
+                        Assam Kaziranga University
+                    </p>
+
+                    <p class="education-year">
+                        2025 - Present (2027)
+                    </p>
+
+                    <p>
+                        Post Graduate
+                    </p>
+
+                    <p>
+                        Focus Areas: Artificial Intelligence, Machine Learning,
+                        IoT, Data Science and Software Development
+                    </p>
+
+                </div>
+
+                <!-- BCA -->
+                <div class="education-card">
+
+                    <h3>
+                        Bachelor of Computer Applications (BCA)
+                    </h3>
+
+                    <p class="education-institution">
+                        Asian Institute of Management and Technology
+                    </p>
+
+                    <p class="education-year">
+                        2022 - 2024
+                    </p>
+
+                    <p>
+                        Undergraduate
+                    </p>
+
+                </div>
+
+                <!-- Higher Secondary -->
+                <div class="education-card">
+
+                    <h3>
+                        Higher Secondary
+                    </h3>
+
+                    <p class="education-institution">
+                        Anundoram Borooah Academy
+                    </p>
+
+                    <p class="education-year">
+                        2019 - 2021
+                    </p>
+
+                </div>
+
+                <!-- HSLC -->
+                <div class="education-card">
+
+                    <h3>
+                        HSLC
+                    </h3>
+
+                    <p class="education-institution">
+                        Anundoram Borooah Academy
+                    </p>
+
+                    <p class="education-year">
+                        2019
+                    </p>
+
+                </div>
 
             </div>
 
@@ -419,17 +470,40 @@
                 Feel free to get in touch.
             </p>
 
-            <a
-                href="mailto:your-email@example.com"
-                class="btn">
+            <div class="contact-links">
 
-                Send Me an Email
+                <a
+                    href="mailto:talukdarjyotirman@gmail.com"
+                    class="contact-item">
+                    📧 Email
+                </a>
 
-            </a>
+                <a
+                    href="https://github.com/madcoderx"
+                    class="contact-item"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    💻 GitHub
+                </a>
+
+                <a
+                    href="#"
+                    class="contact-item">
+                🔗 LinkedIn
+                </a>
+
+            </div>
 
         </section>
 
     </main>
+
+    <button
+    id="back-to-top"
+    class="back-to-top"
+    aria-label="Back to top">
+    ↑
+    </button>
 
 
     <!-- ==============================
@@ -438,9 +512,38 @@
 
     <footer>
 
-        <p>
-            © 2026 Jyotirman Talukdar. All Rights Reserved.
-        </p>
+        <div class="footer-content">
+
+            <div class="footer-info">
+
+                <h3>Jyotirman Talukdar</h3>
+
+                <p>
+                   MCA Student | AI and IoT Enthusiast 
+                </p>
+            </div>
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Jyotirman Talukdar. All Rights Reserved.
+            </p>
+
+            <a href="#home">
+                Back to Top ↑
+            </a>
+        </div>
+
 
     </footer>
 
