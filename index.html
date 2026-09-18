@@ -5,22 +5,42 @@
 
     <meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <title>Jyotirman Talukdar | MCA Portfolio</title>
 
     <meta
-    name="description"
-    content="Portfolio of Jyotirman Talukdar, an MCA student interested in Artificial Intelligence, Machine Learning, IoT, Data Science and Software Development.">
+        name="description"
+        content="Portfolio of Jyotirman Talukdar, an MCA student interested in Artificial Intelligence, Machine Learning, IoT, Data Science and Software Development."
+    >
 
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <meta name="theme-color" content="#6366f1">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link
+        rel="icon"
+        type="image/png"
+        href="images/favicon.png"
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
 
 </head>
 
+
 <body>
+
+    <!-- ==============================
+         SCROLL PROGRESS
+         ============================== -->
+
+    <div id="scroll-progress"></div>
+
 
     <!-- ==============================
          NAVIGATION
@@ -28,35 +48,89 @@
 
     <header>
 
-        <nav class="navbar">
+        <nav
+            class="navbar"
+            aria-label="Main navigation"
+        >
 
-            <a href="#home" class="logo">
+            <a
+                href="#home"
+                class="logo"
+            >
                 Jyotirman
             </a>
 
-            <ul class="nav-links" id="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
+
+            <ul
+                class="nav-links"
+                id="nav-links"
+            >
+
+                <li>
+                    <a href="#home">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#about">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#skills">
+                        Skills
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#projects">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#education">
+                        Education
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </li>
+
             </ul>
 
+
+            <!-- Theme button -->
+
             <button
+                type="button"
                 class="theme-toggle"
                 id="theme-toggle"
-                aria-label="Toggle dark mode">
-                🌙
+                aria-label="Switch to dark mode"
+                title="Switch to dark mode"
+            >
+                ☀️
             </button>
+
+
+            <!-- Mobile menu button -->
 
             <button
+                type="button"
                 class="menu-toggle"
                 id="menu-toggle"
-                aria-label="Open navigation menu">
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-links"
+                title="Open navigation menu"
+            >
                 ☰
             </button>
-
 
         </nav>
 
@@ -74,49 +148,152 @@
              HERO SECTION
              ============================== -->
 
-        <section id="home" class="hero">
+        <section
+            id="home"
+            class="hero"
+        >
 
             <div class="hero-content">
+
+
+                <!-- Profile -->
 
                 <div class="profile-image">
 
                     <img
                         src="images/profile.jpeg"
-                        alt="Portrait of Jyotirman Talukdar">
+                        alt="Portrait of Jyotirman Talukdar"
+                    >
 
                 </div>
+
+
+                <!-- Main heading -->
 
                 <h1>
                     Hello, I'm Jyotirman Talukdar
                 </h1>
 
+
                 <h2>
                     MCA Student | AI and IoT Enthusiast
                 </h2>
 
+
+                <!-- Introduction -->
+
                 <p class="hero-description">
 
-                    I am a Master of Computer Applications student interested in
-                    Artificial Intelligence, Machine Learning, IoT, and software
-                    development. I enjoy building practical technology solutions
-                    that solve real-world problems.
+                    I am a Master of Computer Applications student
+                    interested in Artificial Intelligence, Machine
+                    Learning, IoT, and software development. I enjoy
+                    building practical technology solutions that solve
+                    real-world problems.
 
                 </p>
 
+
+                <!-- Technology pills -->
+
+                <div class="hero-skills">
+
+                    <span>
+                        AI &amp; ML
+                    </span>
+
+                    <span>
+                        IoT
+                    </span>
+
+                    <span>
+                        Computer Vision
+                    </span>
+
+                    <span>
+                        Data Science
+                    </span>
+
+                </div>
+
+
+                <!-- Portfolio statistics -->
+
+                <div class="hero-stats">
+
+                    <div class="hero-stat">
+
+                        <strong>
+                            3
+                        </strong>
+
+                        <span>
+                            Projects
+                        </span>
+
+                    </div>
+
+
+                    <div class="hero-stat">
+
+                        <strong>
+                            6
+                        </strong>
+
+                        <span>
+                            Skill Areas
+                        </span>
+
+                    </div>
+
+
+                    <div class="hero-stat">
+
+                        <strong>
+                            4
+                        </strong>
+
+                        <span>
+                            Education
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Availability -->
+
+                <div class="availability-badge">
+
+                    <span
+                        class="availability-dot"
+                        aria-hidden="true"
+                    ></span>
+
+                    Available for Projects &amp; Collaboration
+
+                </div>
+
+
+                <!-- Hero buttons -->
+
                 <div class="hero-buttons">
 
-                    <a href="#projects" class="btn">
+                    <a
+                        href="#projects"
+                        class="btn"
+                    >
                         View Projects
                     </a>
+
 
                     <a
                         href="assets/Jyotirman Talukdar- cv.pdf"
                         class="btn secondary-btn"
                         target="_blank"
-                        rel="noopener noreferrer">
-
+                        rel="noopener noreferrer"
+                    >
                         View Resume
-
                     </a>
 
                 </div>
@@ -130,30 +307,81 @@
              ABOUT SECTION
              ============================== -->
 
-        <section id="about" class="section">
+        <section
+            id="about"
+            class="section"
+        >
 
-            <h2>About Me</h2>
+            <h2>
+                About Me
+            </h2>
+
 
             <div class="about-content">
 
                 <p>
-                    I am currently pursuing a Master of Computer Applications
-                    (MCA) and developing my skills in Artificial Intelligence,
-                    Machine Learning, Internet of Things, Data Science, and
-                    Web Development.
+                    I am currently pursuing a Master of Computer
+                    Applications (MCA) and developing my skills in
+                    Artificial Intelligence, Machine Learning,
+                    Internet of Things, Data Science, and Web
+                    Development.
                 </p>
 
-                <p>
-                    My academic projects have given me experience in developing
-                    machine learning applications, working with image data,
-                    designing IoT-based solutions, and creating web applications.
-                </p>
 
                 <p>
-                    I am particularly interested in applying AI and software
-                    technologies to real-world problems and continuously
-                    improving my technical and problem-solving skills.
+                    My academic projects have given me experience
+                    in developing machine learning applications,
+                    working with image data, designing IoT-based
+                    solutions, and creating web applications.
                 </p>
+
+
+                <p>
+                    I am particularly interested in applying AI
+                    and software technologies to real-world problems
+                    and continuously improving my technical and
+                    problem-solving skills.
+                </p>
+
+
+                <!-- Currently learning -->
+
+                <div class="learning-box">
+
+                    <h3>
+                        Currently Learning
+                    </h3>
+
+
+                    <div class="learning-tags">
+
+                        <span>
+                            Artificial Intelligence
+                        </span>
+
+                        <span>
+                            Machine Learning
+                        </span>
+
+                        <span>
+                            Deep Learning
+                        </span>
+
+                        <span>
+                            IoT
+                        </span>
+
+                        <span>
+                            Computer Vision
+                        </span>
+
+                        <span>
+                            Web Development
+                        </span>
+
+                    </div>
+
+                </div>
 
             </div>
 
@@ -164,15 +392,26 @@
              SKILLS SECTION
              ============================== -->
 
-        <section id="skills" class="section">
+        <section
+            id="skills"
+            class="section"
+        >
 
-            <h2>Technical Skills</h2>
+            <h2>
+                Technical Skills
+            </h2>
+
 
             <div class="skills-grid">
 
+
+                <!-- Programming -->
+
                 <div class="skill-card">
 
-                    <h3>Programming</h3>
+                    <h3>
+                        Programming
+                    </h3>
 
                     <p>
                         Python, JavaScript
@@ -181,9 +420,13 @@
                 </div>
 
 
+                <!-- AI & ML -->
+
                 <div class="skill-card">
 
-                    <h3>AI & Machine Learning</h3>
+                    <h3>
+                        AI &amp; Machine Learning
+                    </h3>
 
                     <p>
                         Machine Learning, Computer Vision,
@@ -193,9 +436,13 @@
                 </div>
 
 
+                <!-- Web -->
+
                 <div class="skill-card">
 
-                    <h3>Web Development</h3>
+                    <h3>
+                        Web Development
+                    </h3>
 
                     <p>
                         HTML, CSS, JavaScript, Flask
@@ -204,9 +451,13 @@
                 </div>
 
 
+                <!-- IoT -->
+
                 <div class="skill-card">
 
-                    <h3>IoT</h3>
+                    <h3>
+                        IoT
+                    </h3>
 
                     <p>
                         IoT Systems, Sensors, Smart Agriculture,
@@ -216,9 +467,13 @@
                 </div>
 
 
+                <!-- Tools -->
+
                 <div class="skill-card">
 
-                    <h3>Tools & Technologies</h3>
+                    <h3>
+                        Tools &amp; Technologies
+                    </h3>
 
                     <p>
                         Git, GitHub, VS Code, Jupyter Notebook
@@ -227,9 +482,13 @@
                 </div>
 
 
+                <!-- Data -->
+
                 <div class="skill-card">
 
-                    <h3>Data & Databases</h3>
+                    <h3>
+                        Data &amp; Databases
+                    </h3>
 
                     <p>
                         Pandas, NumPy, Matplotlib, SQL
@@ -246,14 +505,22 @@
              PROJECTS SECTION
              ============================== -->
 
-        <section id="projects" class="section">
+        <section
+            id="projects"
+            class="section"
+        >
 
-            <h2>Projects</h2>
+            <h2>
+                Projects
+            </h2>
+
 
             <div class="projects-grid">
 
 
-                <!-- PACS PROJECT -->
+                <!-- ==========================
+                     PACS PROJECT
+                     ========================== -->
 
                 <div class="project-card">
 
@@ -262,34 +529,49 @@
                     </h3>
 
                     <p>
-                        An AI-based medical image security system designed to
-                        detect tampering in PACS medical images and identify
-                        different types of image attacks.
+                        An AI-based medical image security system
+                        designed to detect tampering in PACS medical
+                        images and identify different types of image
+                        attacks.
                     </p>
+
 
                     <div class="project-tags">
 
-                        <span>Python</span>
-                        <span>Machine Learning</span>
-                        <span>Computer Vision</span>
-                        <span>Flask</span>
+                        <span>
+                            Python
+                        </span>
+
+                        <span>
+                            Machine Learning
+                        </span>
+
+                        <span>
+                            Computer Vision
+                        </span>
+
+                        <span>
+                            Flask
+                        </span>
 
                     </div>
+
 
                     <a
                         href="https://github.com/madcoderx/Diagnosing-Adversarial-PACS-image-Tampering"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="project-link">
-
+                        class="project-link"
+                    >
                         View Project →
-
                     </a>
 
                 </div>
 
 
-                <!-- INTELLICROP PROJECT -->
+                <!-- ==========================
+                     INTELLICROP PROJECT
+                     ========================== -->
 
                 <div class="project-card">
 
@@ -298,32 +580,44 @@
                     </h3>
 
                     <p>
-                        An AI-driven IoT framework for precision agriculture
-                        that focuses on crop monitoring, intelligent decision
-                        making, and yield optimization.
+                        An AI-driven IoT framework for precision
+                        agriculture that focuses on crop monitoring,
+                        intelligent decision making, and yield
+                        optimization.
                     </p>
+
 
                     <div class="project-tags">
 
-                        <span>AI</span>
-                        <span>IoT</span>
-                        <span>Python</span>
-                        <span>Data Science</span>
+                        <span>
+                            AI
+                        </span>
+
+                        <span>
+                            IoT
+                        </span>
+
+                        <span>
+                            Python
+                        </span>
+
+                        <span>
+                            Data Science
+                        </span>
 
                     </div>
 
-                    <a
-                        href="#"
-                        class="project-link">
 
-                        View Project →
-
-                    </a>
+                    <span class="project-coming-soon">
+                        Project Coming Soon
+                    </span>
 
                 </div>
 
 
-                <!-- SIGN LANGUAGE PROJECT -->
+                <!-- ==========================
+                     SIGN LANGUAGE PROJECT
+                     ========================== -->
 
                 <div class="project-card">
 
@@ -332,27 +626,36 @@
                     </h3>
 
                     <p>
-                        A computer vision project that aims to recognize
-                        sign language gestures and translate them into
-                        understandable words or sentences.
+                        A computer vision project that aims to
+                        recognize sign language gestures and translate
+                        them into understandable words or sentences.
                     </p>
+
 
                     <div class="project-tags">
 
-                        <span>Python</span>
-                        <span>Computer Vision</span>
-                        <span>AI</span>
-                        <span>Machine Learning</span>
+                        <span>
+                            Python
+                        </span>
+
+                        <span>
+                            Computer Vision
+                        </span>
+
+                        <span>
+                            AI
+                        </span>
+
+                        <span>
+                            Machine Learning
+                        </span>
 
                     </div>
 
-                    <a
-                        href="#"
-                        class="project-link">
 
-                        View Project →
-
-                    </a>
+                    <span class="project-coming-soon">
+                        Project Coming Soon
+                    </span>
 
                 </div>
 
@@ -365,13 +668,21 @@
              EDUCATION SECTION
              ============================== -->
 
-        <section id="education" class="section">
+        <section
+            id="education"
+            class="section"
+        >
 
-            <h2>Education</h2>
+            <h2>
+                Education
+            </h2>
+
 
             <div class="education-grid">
 
+
                 <!-- MCA -->
+
                 <div class="education-card">
 
                     <h3>
@@ -391,13 +702,16 @@
                     </p>
 
                     <p>
-                        Focus Areas: Artificial Intelligence, Machine Learning,
-                        IoT, Data Science and Software Development
+                        Focus Areas: Artificial Intelligence,
+                        Machine Learning, IoT, Data Science and
+                        Software Development
                     </p>
 
                 </div>
 
+
                 <!-- BCA -->
+
                 <div class="education-card">
 
                     <h3>
@@ -416,9 +730,15 @@
                         Undergraduate
                     </p>
 
+                    <p>
+                        Affiliated to Gauhati University
+                    </p>
+
                 </div>
 
+
                 <!-- Higher Secondary -->
+
                 <div class="education-card">
 
                     <h3>
@@ -435,7 +755,9 @@
 
                 </div>
 
+
                 <!-- HSLC -->
+
                 <div class="education-card">
 
                     <h3>
@@ -461,36 +783,52 @@
              CONTACT SECTION
              ============================== -->
 
-        <section id="contact" class="section contact-section">
+        <section
+            id="contact"
+            class="section contact-section"
+        >
 
-            <h2>Contact Me</h2>
+            <h2>
+                Contact Me
+            </h2>
+
 
             <p>
                 Interested in technology, projects and collaboration?
                 Feel free to get in touch.
             </p>
 
+
             <div class="contact-links">
+
+
+                <!-- Email -->
 
                 <a
                     href="mailto:talukdarjyotirman@gmail.com"
-                    class="contact-item">
+                    class="contact-item"
+                >
                     📧 Email
                 </a>
+
+
+                <!-- GitHub -->
 
                 <a
                     href="https://github.com/madcoderx"
                     class="contact-item"
                     target="_blank"
-                    rel="noopener noreferrer">
+                    rel="noopener noreferrer"
+                >
                     💻 GitHub
                 </a>
 
-                <a
-                    href="#"
-                    class="contact-item">
-                🔗 LinkedIn
-                </a>
+
+                <!-- LinkedIn -->
+
+                <span class="contact-item">
+                    🔗 LinkedIn
+                </span>
 
             </div>
 
@@ -498,11 +836,19 @@
 
     </main>
 
+
+    <!-- ==============================
+         BACK TO TOP
+         ============================== -->
+
     <button
-    id="back-to-top"
-    class="back-to-top"
-    aria-label="Back to top">
-    ↑
+        type="button"
+        id="back-to-top"
+        class="back-to-top"
+        aria-label="Back to top"
+        title="Back to top"
+    >
+        ↑
     </button>
 
 
@@ -514,24 +860,45 @@
 
         <div class="footer-content">
 
+
             <div class="footer-info">
 
-                <h3>Jyotirman Talukdar</h3>
+                <h3>
+                    Jyotirman Talukdar
+                </h3>
 
                 <p>
-                   MCA Student | AI and IoT Enthusiast 
+                    MCA Student | AI and IoT Enthusiast
                 </p>
-            </div>
-
-            <div class="footer-links">
-
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
 
             </div>
+
+
+            <nav
+                class="footer-links"
+                aria-label="Footer navigation"
+            >
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#projects">
+                    Projects
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </nav>
+
         </div>
+
 
         <div class="footer-bottom">
 
@@ -542,13 +909,15 @@
             <a href="#home">
                 Back to Top ↑
             </a>
-        </div>
 
+        </div>
 
     </footer>
 
 
-    <!-- JAVASCRIPT -->
+    <!-- ==============================
+         JAVASCRIPT
+         ============================== -->
 
     <script src="js/script.js"></script>
 
